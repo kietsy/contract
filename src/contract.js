@@ -68,9 +68,9 @@ var Contract = {
     }
 };
 
-// defaults object. By default inject into Function.prototype
+// defaults object. By default don't inject into Function.prototype
 var defaults = {
-    natives: true
+    natives: false,
 };
 
 // ContractFactory generates a new Contract based on the passed function `f`
